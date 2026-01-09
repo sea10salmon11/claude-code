@@ -1,0 +1,46 @@
+name: school_schedule
+description: Мобильное приложение для управления расписанием уроков
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+  # Локальное хранилище
+  shared_preferences: ^2.2.2
+
+  # JSON сериализация
+  json_annotation: ^4.8.1
+
+  # Управление состоянием
+  provider: ^6.1.1
+
+  # Виджеты для главного экрана (Android)
+  home_widget: ^0.5.0
+
+  # UUID для идентификаторов
+  uuid: ^4.3.3
+
+  # Локальные уведомления
+  flutter_local_notifications: ^16.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  # Можно добавить иконку приложения
+  # assets:
+  #   - assets/images/
