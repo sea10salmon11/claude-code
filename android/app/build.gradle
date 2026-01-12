@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.school_schedule"
-    compileSdk 34
+    compileSdk 23
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -42,7 +42,7 @@ android {
     defaultConfig {
         applicationId "com.example.school_schedule"
         minSdk 21
-        targetSdk 34
+        targetSdk 23
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
