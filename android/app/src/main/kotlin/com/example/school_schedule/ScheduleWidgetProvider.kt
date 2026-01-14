@@ -34,7 +34,7 @@ class ScheduleWidgetProvider : AppWidgetProvider() {
                             append(time)
                             append(" - ")
                             append(subject)
-                            if (classroom.isNotEmpty()) {
+                            if (!classroom.isNullOrEmpty()) {
                                 append(" (каб. ")
                                 append(classroom)
                                 append(")")
