@@ -192,8 +192,8 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
 
     if (context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Постоянное уведомление создано'),
+        SnackBar(
+          content: const Text('Постоянное уведомление создано'),
           action: SnackBarAction(
             label: 'Отменить',
             onPressed: () {
